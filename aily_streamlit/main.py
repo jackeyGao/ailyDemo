@@ -39,6 +39,15 @@ def on_btn_click():
 #     ]
 # )
 
+
+if 'past' not in st.session_state:
+    st.session_state.setdefault('past', [])
+
+
+if 'generated' not in st.session_state:
+    st.session_state.setdefault('generated', [])
+
+
 st.title("Aily Chat Demo")
 
 chat_placeholder = st.empty()
