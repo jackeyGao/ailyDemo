@@ -1,0 +1,19 @@
+[tool.poetry]
+name = "aily-streamlit"
+version = "0.1.0"
+description = ""
+authors = ["jg <jg@bytedance.com>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.12"
+streamlit = "^1.41.1"
+aily-sdk = "^0.30.0"
+arrow = "^1.3.0"
+streamlit-chat = "^0.1.1"
+dynaconf = "^3.2.6"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
