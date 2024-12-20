@@ -18,6 +18,20 @@ skill_id = settings.aily.skill_id
 
 def chat_with_stream(message):
     # 使用用户输入的 content 和固定的 app_id
-    stream = client.chat_completions.create(app_id=app_id, content=message, skill_id=skill_id, stream=True)
+    return client.chat_completions.create(
+        app_id=app_id, 
+        content=message, 
+        skill_id=skill_id, 
+        stream=True
+    )
 
-    return stream
+
+def chat_with_skill(message, skill_id, skill_input):
+    # 使用用户输入的 content 和固定的 app_id
+    return client.chat_completions.create(
+        app_id=app_id, 
+        content=message, 
+        skill_id=skill_id, 
+        skill_input=skill_input,
+        stream=True
+    )
