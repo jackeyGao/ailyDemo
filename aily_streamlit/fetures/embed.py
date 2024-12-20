@@ -9,6 +9,8 @@ embed_url = f"https://ae.feishu.cn/cui#appkey={app_key}&config=eyJjb252ZXJzYXRpb
 
 @st.dialog("智能问答", width="large")
 def cui():
+    st.caption("注意: 访问会话面板的终端用户，需要具备**飞书登录态（并确保在 Aily Bot 的可用范围内）**，才能发起对话")
+
     st.markdown(f'''
 <iframe
   src="{embed_url}"
