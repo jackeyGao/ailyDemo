@@ -42,7 +42,7 @@ with st.container(border=2):
         index=1,
         placeholder="选择风格..",
     )
-    input = st.text_area("你有哪些开放能力? ")
+    input = st.text_area("润色文本")
 
 
 if st.button("润色", type="primary", key="pref", icon=":material/hotel_class:") and input:
