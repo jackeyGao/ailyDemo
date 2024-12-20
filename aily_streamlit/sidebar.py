@@ -8,7 +8,7 @@ def sidebar():
 .st-key-assistant button {
     position: fixed;
     right: 10px;
-    bottom: 10px;   
+    bottom: 60px;   
     z-index: 1000;     
 }
 </style>''')
