@@ -1,3 +1,6 @@
+[general]
+app_key = ""
+
 [app]
 app_id = ""
 app_secret = ""

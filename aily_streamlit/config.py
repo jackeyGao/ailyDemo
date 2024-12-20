@@ -1,6 +1,11 @@
 from dynaconf import Dynaconf, Validator
 
 validators = {
+    'general.app_key': Validator(
+        'general.app_key',
+        must_exist=True,
+        condition=lambda v: isinstance(v, str),
+    ),
     'app.app_id': Validator(
         'app.app_id',
         must_exist=True,
