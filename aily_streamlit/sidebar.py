@@ -18,9 +18,9 @@ def sidebar():
     with st.sidebar:
         st.image("https://lf3-static.bytednsdoc.com/obj/eden-cn/LMfspH/ljhwZthlaukjlkulzlp/logo.png")
 
-        st.caption("飞书智能应用平台为开发者提供了一系列开放 API，允许你将系统与 Aily 助手进行无缝连接。通过这些 API，你可以管理用户会话、发送和接收消息，以及执行复杂的技能调用。")
+        st.caption("[飞书智能应用平台(Aily)](https://aily.feishu.cn)为开发者提供了一系列开放 API，允许你将系统与 Aily 助手进行无缝连接。通过这些 API，你可以管理用户会话、发送和接收消息，以及执行复杂的技能调用。")
 
-        st.caption("[Aily 开放能力介绍](https://aily.feishu.cn/hc/8qluoxsa/cvg9t9pe)")
+        st.caption("- [说明文档](https://bytedance.larkoffice.com/wiki/BBUUw9PawiWfL3k3PGWcl9Sfn4c)\n- [Aily 开放能力介绍](https://aily.feishu.cn/hc/8qluoxsa/cvg9t9pe)")
 
         st.page_link("main.py", label="Aily Chat", icon=":material/hotel_class:")
 
